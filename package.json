@@ -6,9 +6,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install",
+    "prepare": "husky install"
   },
-  
+
   "lint-staged": {
     "*.{ts, tsx}": [
       "eslint --fix"
